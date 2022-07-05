@@ -1,0 +1,10 @@
+name: 'Multi Mirror Action'
+description: 'Mirror multiple repo'
+inputs:
+  input:
+    required: true
+    default:
+      - 'World'
+runs:
+  using: 'node16'
+  main: 'index.js'
