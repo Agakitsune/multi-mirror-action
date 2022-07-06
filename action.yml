@@ -3,8 +3,9 @@ description: 'Mirror multiple repo'
 inputs:
   input:
     required: true
+    type: string
     default:
-      - 'World'
+      'World'
 runs:
   using: 'node16'
   main: 'index.js'
